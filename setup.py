@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from setuptools import setup
-from django_postgrespool2 import __version__, __author__
+from django_postgrespool2 import __version__,
 
 required = [
     'sqlalchemy'
@@ -12,7 +12,7 @@ setup(
     version=__version__,
     description='Postgres Connection Pooling for Django.',
     long_description=open('README.rst').read(),
-    author=__author__,
+    author='',
     author_email='malexey1984@gmail.com',
     url='https://github.com/lcd1232/django-postgrespool2',
     packages= ['django_postgrespool2'],
