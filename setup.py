@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from setuptools import setup
-from django_postgrespool2 import __version__,
+from django_postgrespool2 import __version__
 
 required = [
     'sqlalchemy'
